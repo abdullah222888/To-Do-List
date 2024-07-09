@@ -1,0 +1,80 @@
+/* Base */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout */
+
+.Layout-Container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 1920px;
+  height: 100vh;
+  /* border: 5px solid red; */
+}
+
+/* Navbar */
+
+.Navbar-Container {
+  display: flex;
+  width: 100vw;
+  border: 1px solid red;
+  height: 14vh;
+}
+
+.Navbar-Container ul {
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
+  padding-right: 2rem;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.Navbar-Container li {
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Navbar-Container a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Footer */
+
+.Footer-Container {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  border: 1px solid red;
+}
+
+/* Home */
+
+.Home-Container {
+  min-height: 66vh;
+}
+
+.Home-Read-Container {
+  display: flex;
+  border: 1px solid green;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.exercise-card {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  padding: 1rem;
+  border: 5px solid red;
+}
